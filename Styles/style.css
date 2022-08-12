@@ -45,6 +45,10 @@
     color: white;
 }
 
+.header-menu:hover{
+    transform: scale(120%)
+}
+
 .header__title{
     color: #e7bd70;
     display: inline-block;
@@ -58,6 +62,11 @@
 .header-nav{
     grid-column-start:-2 ;
     grid-column-end: -1;
+    
+}
+
+li:hover{
+    transform: scale(120%)
 }
 
 .header__navmenu{
